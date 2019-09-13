@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>모바일 웹/앱 개발자과정</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cssanimation.min.css">
+  <script src="js/scrolly.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+    </style>  
+ 
+ 
+</head>
+<body>
+  <script type="text/javascript">
+    window.onload = function(){scrolly();}
+  </script>
+    
+  <!--  한 줄에 여러 항목 -->
+  <section>
+    <div class="wrapper">
+      <header class="section-title">
+        <h3>Mobile Web/App developer</h3>
+      </header>  
+
+      <div class="profile" data-scrolly-down="blurInBottom">
+
+        <img src = "images/profile.jpg">
+        <div class="profile_txt">
+          <p>NAME : Jinju Na</p>
+          <p>AGE : 25</p>
+          <p>SKILL : HTML CSS Javascript jQuery Vue.js</p>
+          <p>PHONE : 010-2727-6548</p>
+          <p>EMAIL : wlswnwhro95@naver.com</p>
+        </div>
+
+      </div>
+      <div class="program-list">
+    
+        <div class="program">
+         <a href="https://jinjuna.github.io/sk2/">
+            <div class="txt">
+            <h4>HTML/CSS Javascript jQuery</h4>
+            <p>SK2 리뉴얼</p>
+            </div>
+          </a>    
+        </div> 
+
+        <div class="program">
+          <a href="https://jinjuna.github.io/DAISOMall/">
+             <div class="txt">
+             <h4>HTML/CSS Javascript jQuery</h4>
+             <p>다이소몰 리뉴얼</p>
+             </div>
+           </a>    
+         </div> 
+
+         <div class="program">
+          <a href="https://jinjuna.github.io/responsive-gong-cha/">
+             <div class="txt">
+             <h4>HTML/CSS Javascript jQuery 반응형</h4>
+             <p>공차 리뉴얼</p>
+             </div>
+           </a>    
+         </div> 
+
+         <div class="program" >
+          <a href="https://jinjuna.github.io/nanacoding/logo.html">
+             <div class="txt">
+             <h4>HTML/CSS Javascript jQuery 모바일</h4>
+             <p>나나코딩</p>
+             </div>
+           </a>    
+         </div> 
+
+         <div class="program" >
+          <a href="https://jinjuna.github.io/kakaobank/">
+             <div class="txt">
+             <h4>HTML/CSS Javascript jQuery</h4>
+             <p>카카오뱅크 클론코딩</p>
+             </div>
+           </a>    
+         </div> 
+
+         
+         
+      </div>
+    </div>    
+  </section>
+    
+  <!-- 푸터 -->
+  <section class="footer">
+    <div class="wrapper">
+      <div class="footer-info">
+        <div class="contact">
+          <p> 부산시 남구 수영로 135, 126동 301호</p>
+          <p> 전화 : 010-2727-6548</p>
+          <p> 이메일 : wlswnwhro95@naver.com</p>
+        </div>
+        <div class="sns">
+          <a href="#"><img src="images/fb.png"></a>
+          <a href="#"><img src="images/tw.png"></a>
+          <a href="#"><img src="images/ytube.png"></a>
+          <a href="#"><img src="images/gp.png"></a>
+        </div>
+      </div>
+    </div>    
+  </section>
+
+   
+
+<script src="js/jquery-3.4.1.min.js"></script> 
+<script src="js/slick.js"></script>
+<script> 
+$(".slider").slick({
+	autoplaySpeed:2500,
+	autoplay:true,
+	dots: false,
+	infinite: true,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	arrows:false,
+	centerMode: true,
+	customPaging : function(s,i){
+		return '<a href="#"></a>';
+	},
+  }); 
+  </script>
+    
+</body>
+</html>
